@@ -1,0 +1,257 @@
+.navbar{
+
+	background-color: blue;
+	border-radius: 20px ;
+}
+body{
+background-color: gray;
+
+}
+h2{
+	color: red;
+}
+.navbar ul{
+overflow: auto;
+
+
+}
+.navbar li{
+	float: left;
+	list-style: none;
+	margin: 13px 20px;
+
+}
+.navbar li a{
+text-decoration: none;
+padding:5px 5px ;
+color: white;
+
+
+}
+
+.navbar input{
+	border: 3px solid black;
+	border-radius: 12px;
+
+}
+.navbar li a:hover {
+	background-color:red ;
+transition: 0.5s;
+
+	color: black;
+
+}
+
+	
+
+
+
+
+
+
+.search{
+	width: 250px;
+	float: left;
+	margin-left: 270px;
+	padding:10px ;
+}
+
+.srch{
+	font-family: Times new roman;
+	width: 150px;
+	height: 40px;
+	
+	border: 1px solid red;
+	background: transparent;
+	color: white;
+	border-right: none;
+	float: left;
+}
+.srch:hover{
+background: red;
+transition: 0.4s;
+
+}
+.btn{
+	width: 70px;
+	height: 30px;
+	background:orange ;
+	border-radius: 20px;
+	color: white;
+	font-weight: bold;
+}
+.btn:hover{
+background: red;
+color: black;
+transition: 0.4s;
+font-size: 15px;
+font-weight: bold;
+}
+.content{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	color: white;
+	position: relative;
+
+}
+.content .par{
+	padding: 20px;
+	font-family: arial;
+	letter-spacing: 1.2px;
+	line-height: 25px;
+
+}
+.content h1{
+	font-family: times new roman;
+	font-size:50px ;
+	margin-top: 7%;
+	letter-spacing: 2px;
+}
+.content .cn{
+background: orange;
+float: left;
+padding: 5px;
+margin-top: 5px;
+margin-left: 5px;
+transition: 0.5s;
+border-radius: 10px;
+cursor: pointer;
+border-color: solid black;
+}
+.content .cn a{
+	text-decoration: none;
+	color: white;
+}
+.content .cn a:hover{
+	
+	color: black;
+	
+}
+.content .cn:hover{
+	background: white;
+	transition: 0.4s ease;
+	font-weight: bold;
+	font-size: 20px;
+}
+.content span{
+	color: orange;
+}
+.form{
+	width: 270px;
+	height: 370px;
+	background: hotpink;
+	position: absolute;
+	top: 250px;
+	left: 1000px;
+	border-radius: 40px;
+	padding: 20px;
+}
+.form h2{
+width: 220px;
+font-family: sans-serif;
+text-align: center;
+color: white;
+background-color: orange;
+border-radius: 20px;
+font-size: 20px;
+padding: 8px;
+margin: 10px;
+
+}
+.form input{
+width: 240px;
+height: 30px;
+background: transparent;
+border-bottom: 2px solid black;
+border-top: none;
+border-right: none;
+border-left: none;
+
+
+}
+::placeholder{
+	color: white;
+	font-family: arial;
+}
+.form .btt{
+	width: 240px;
+	height: 30px;
+	border-radius: 20px;
+	border-color: orange;
+	border-bottom-color:orange ;
+	background-color: orange;
+	font-weight: bold;
+
+
+}
+.form .btt:hover{
+background-color: red;
+transition: 0.5;
+
+
+}
+.form .btt a{
+	text-decoration:none;
+	font-family: sans-serif;
+	color: blue;
+	cursor: pointer;
+	font-weight: bold;
+}
+.form .btt a:hover{
+	color: white;
+	transition: 0.4;
+	font-family: cursive;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 20px;
+}
+.link{
+	font-family: Arial,Helvetica,sans-serif;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	padding-top: 10px;
+}
+.form .link a{
+	text-decoration: none;
+	color: lightblue;
+	font-weight: bold;
+	font-size: 20px;
+
+}
+.form .link a:hover{
+	color:red;
+	transition: 0.4s;
+	font-size: 30px;
+	cursor: pointer;
+
+}
+h3{
+	color: blue;
+	font-family: sans-serif;
+	font-size: 30px;
+}
+h3:hover{
+	color: red;
+	font-size: 40px;
+}
+.ab{
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+}
+.f{
+	letter-spacing: 10px;
+	font-weight: bold;
+	font-size: 25px;
+}
+.f a{
+	color: darkblue;
+	text-decoration: none;
+}
+.f a:hover{
+	color: red;
+	font-size: 40px;
+	transition: 0.4s;
+}
